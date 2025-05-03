@@ -22,3 +22,17 @@ MyPokedex is a simple web application that allows users to search for Pokémon b
 No build steps or server required.
 
 ## Project Structure
+MyPokedex/ ├── index.html ├── styles.css ├── pokedex.js └── README.md
+
+## Customization
+
+- Update `styles.css` to change the look and feel.
+- Modify `pokedex.js` to add more features or enhance functionality.
+
+## Credits
+
+- Pokémon data provided by [PokéAPI](https://pokeapi.co/).
+
+## License
+
+This project is for educational purposes.
