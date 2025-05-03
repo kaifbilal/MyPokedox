@@ -1,0 +1,132 @@
+.header{
+    
+   
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    color: #8d8c8c;
+    background-color: #fff;
+}
+
+
+.black-bg {
+    background: url("bg-black.png");
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+  .white-bg {
+    background:#ffffff url("container_bg.png");
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+ .plain-bg{
+    background: #fff;
+    min-height: 100vh;
+    margin-left: 60px;
+    margin-right: 60px;
+ }
+
+    .black-strip {
+        background: #313131;
+        width: 110%;
+        padding: 0px 0px 0px 0px;
+        margin-left: -5%;
+        padding: 10px 0px 10px 0px; 
+        text-align:center 
+    }
+
+
+    body {
+        background: #424242 url("bg-black.png");
+        font-family: "Flexo-Regular",arial,sans-serif;
+        font-size: 16px;
+        color: #fff;
+        height: 100%;
+      }
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pokemon-card {
+    background: #f8f8f8;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    width: 320px;
+    padding: 24px 18px;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.04);
+}
+
+.pokemon-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.pokemon-name {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #313131;
+}
+
+.pokemon-number {
+    font-size: 1.1em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.pokemon-types {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.pokemon-type {
+    background: #eee;
+    border-radius: 8px;
+    padding: 2px 10px;
+    font-size: 0.95em;
+    color: #444;
+}
+
+.pokemon-info {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #444;
+}
+
+.pokemon-abilities {
+    margin-top: 8px;
+    font-size: 0.97em;
+    color: #555;
+}
+
+
+
+
